@@ -1,5 +1,7 @@
 # Brand Studio: Visual Brand DNA for Claude
 
+Created by [Mike Futia](https://www.skool.com/scale-ai/about) | **SCALE AI**.
+
 Turn any public website into an evidence-backed visual brand system and a polished presentation dashboard using Claude and one Firecrawl API key.
 
 ![Visual Brand DNA dashboard preview](assets/dashboard-preview.png)
